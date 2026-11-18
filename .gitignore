@@ -32,3 +32,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated assignment data
+Assignment-folder/attendance.txt

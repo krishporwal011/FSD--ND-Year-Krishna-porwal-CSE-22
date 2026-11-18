@@ -23,7 +23,11 @@ export default defineConfig([
   },
   // Backend & Node.js Scripts Configuration
   {
-    files: ['Backend/**/*.{js,cjs,mjs}', 'API/**/*.{js,cjs,mjs}'],
+    files: [
+      'Backend/**/*.{js,cjs,mjs}',
+      'API/**/*.{js,cjs,mjs}',
+      'Assignment-folder/**/*.{js,cjs,mjs}',
+    ],
     extends: [js.configs.recommended],
     languageOptions: {
       globals: {

@@ -47,6 +47,9 @@ This repository contains the complete coursework, lab exercises, and projects fo
 │       └── contact.html          # Contact page
 ├── API/                          # Standalone GraphQL Endpoint
 │   └── optional.js               # Express + express-graphql implementation
+├── Assignment-folder/            # Workshop assignment programs
+│   ├── Assignment-1.js           # Events, file operations, HTTP, and to-do API
+│   └── Ques-5-Assign/            # Sweet Crumbs Bakery Express app
 ├── eslint.config.js              # ESLint flat config (React + Node environments)
 ├── vite.config.js                # Vite configuration
 └── package.json                  # Root dependencies and scripts
@@ -128,6 +131,19 @@ cd API
 npm install
 node optional.js
 # Access GraphiQL explorer at http://localhost:4000/graphql
+```
+
+#### Assignments
+```bash
+cd Assignment-folder
+npm install
+npm run assignment-1
+# Tea server: http://localhost:3000
+# To-do API: http://localhost:3001
+
+# In another terminal, from Assignment-folder:
+npm run bakery
+# Bakery website: http://localhost:3002
 ```
 
 ---
